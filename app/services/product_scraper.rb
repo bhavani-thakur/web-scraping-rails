@@ -27,7 +27,8 @@ class ProductScraper
       description: description,
       size: size,
       price: price,
-      category_id: category.id
+      category_id: category.id,
+      url: url
     }
   end
 
