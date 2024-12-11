@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres # Ensure this is the correct username
+  password: postgres # Provide the correct password if needed
+  host: localhost
+
+development:
+  <<: *default
+  database: scrapping_development_postgresql
+
+test:
+  <<: *default
+  database: scrapping_test_postgresql
+
+production:
+  <<: *default
+  database: scrapping_production_postgresql

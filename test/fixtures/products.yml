@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  price: 1.5
+  contact: MyString
+  size: MyString
+  category: MyString
+  scraped_at: 2024-12-10 12:23:28
+
+two:
+  title: MyString
+  description: MyText
+  price: 1.5
+  contact: MyString
+  size: MyString
+  category: MyString
+  scraped_at: 2024-12-10 12:23:28
